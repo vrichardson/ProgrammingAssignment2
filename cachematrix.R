@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
         #function to get the matrix
         get <- function() x
         
-        #Function to set the inverse of the matrix is assigned to setsolve variable
+        #Function to set the inverse of the matrix is assigned to setsolve
         setsolve <- function(solve) s <<- solve
         
         # Function to return the stored inverse of a matrix previosly calculated
